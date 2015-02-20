@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HTTPSで通信する</string>
+	<string name="description">下記のキーワードで画像検索して、1つ目の画像を表示します。</string>
+	<string name="querybox_hint">画像検索キーワード</string>
+	<string name="querybox_default">Android</string>
+	<string name="http_search">HTTPで検索</string>
+	<string name="https_search">HTTPSで検索</string>
+</resources>

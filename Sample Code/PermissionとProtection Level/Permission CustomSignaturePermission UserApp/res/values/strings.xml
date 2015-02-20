@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">独自定義Signature Permission（UserApp）</string>
+    <string name="description">ProtectedAppにIntentを送信します。</string>
+    <string name="send_intent">Intentを送信する</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">WebViewJavascriptEnable</string>
+    <string name="button_go">Go!</string>
+    <string name="texturl">https://www.google.co.jp/</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permission利用宣言サンプル</string>
+    <string name="description">このサンプルアプリは単に &quot;android.permission.INTERNET&quot; Permissionを利用宣言するだけのアプリ。それ以外は何もしない。設定からアプリ情報を参照すれば下図のように「完全なインターネットアクセス」として確認できる。</string>
+</resources>

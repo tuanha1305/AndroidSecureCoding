@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.jssec.android.permission.usespermission"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <!-- ★ポイント1★  アプリで利用するPermissionを利用宣言する -->
+    <!-- インターネットにアクセスするPermission -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- ★ポイント2★  不必要なPermissionは利用宣言しない -->
+    <!-- アプリの動作に不必要なPermissionを利用宣言していると、ユーザーに不信感を与えてしまう -->
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

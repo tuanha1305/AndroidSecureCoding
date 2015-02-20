@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Providerを利用する（自社限定）</string>
+    <string name="description">自社限定 Content Provider をこの Activity で操作。</string>
+    <string name="readfile">Read File</string>
+    <string name="logview">以下にログ表示。\n</string>
+</resources>

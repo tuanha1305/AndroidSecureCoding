@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">独自アカウントを利用する</string>
+    <string name="add_account">アカウントを追加する</string>
+    <string name="get_authtoken">認証トークンを取得する</string>
+    
+</resources>

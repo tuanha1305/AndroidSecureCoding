@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebView Untrust</string>
+    <string name="button_go">Go!</string>
+    <string name="texturl">http://www.jssec.org</string>
+</resources>

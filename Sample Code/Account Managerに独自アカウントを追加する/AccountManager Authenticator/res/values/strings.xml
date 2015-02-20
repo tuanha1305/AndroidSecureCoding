@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">独自アカウントを作る</string>
+    <string name="label">JSSECアカウント</string>
+    <string name="login_activity_title">JSSECアカウントログイン</string>
+    <string name="login_activity_username">アカウント名</string>
+    <string name="login_activity_password">パスワード</string>
+    <string name="login_activity_login">ログイン</string>
+    
+    <string name="error_account_exists">既にアカウントが登録されています</string>
+    <string name="error_account_not_exists">指定されたアカウントは存在しません</string>
+</resources>

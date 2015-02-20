@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.jssec.android.broadcast.inhousereceiver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <!-- ★ポイント1★ Broadcast受信用の独自定義Signature Permissionを定義する -->
+    <permission
+        android:name="org.jssec.android.broadcast.inhousereceiver.MY_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <!-- ★ポイント2★ 結果受信用の独自定義Signature Permissionを利用宣言する -->
+    <uses-permission
+        android:name="org.jssec.android.broadcast.inhousesender.MY_PERMISSION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- ★ポイント3★ exported="true"により、明示的に公開設定する -->
+        <!-- ★ポイント4★ 静的Broadcast Receiver定義にて、独自定義Signature Permissionを要求宣言する -->
+        <receiver
+            android:name="org.jssec.android.broadcast.inhousereceiver.InhouseReceiver"
+            android:exported="true"
+            android:permission="org.jssec.android.broadcast.inhousereceiver.MY_PERMISSION">
+            <intent-filter>
+                <action android:name="org.jssec.android.broadcast.MY_BROADCAST_INHOUSE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.jssec.android.broadcast.inhousereceiver.DynamicReceiverService"
+            android:exported="false" />
+
+        <activity
+            android:name="org.jssec.android.broadcast.inhousereceiver.InhouseReceiverActivity"
+            android:label="@string/app_name"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

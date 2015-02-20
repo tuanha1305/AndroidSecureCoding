@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Providerを利用する（パートナー限定）</string>
+    <string name="description">パートナー限定 Content Provider をこの Activity で操作。</string>
+    <string name="query">Query</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="logview">以下にログ表示。\n</string>
+</resources>

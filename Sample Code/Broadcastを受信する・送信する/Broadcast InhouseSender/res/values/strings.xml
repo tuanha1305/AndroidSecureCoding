@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Broadcast を送信する（自社限定）</string>
+    <string name="description">自社限定 Broadcast Receiver に対して以下の操作ができる。</string>
+    <string name="send_normal">Normal Broadcast を送信する</string>
+    <string name="send_ordered">Ordered Broadcast を送信する</string>
+    <string name="logview">以下にBroadcastの結果情報が追加される。\n</string>
+</resources>

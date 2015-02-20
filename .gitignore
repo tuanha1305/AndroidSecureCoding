@@ -1,0 +1,5 @@
+/.metadata/
+bin/
+gen/
+proguard/
+.DS_Store

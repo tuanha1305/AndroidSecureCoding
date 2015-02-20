@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crypt SymmetricPreSharedKey</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="memo_title">Input your memo.</string>
+    <string name="button_save_title">Save</string>
+    <string name="button_load_title">Load</string>
+    
+</resources>

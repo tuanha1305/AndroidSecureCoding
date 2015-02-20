@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="description">公開ファイルをこのActivityで作成する</string>
+    <string name="app_name">ファイルを編集する(公開）</string>
+    <string name="description_user">公開ファイルをこのActivityで読み書きする</string>
+    <string name="create_file">新規ファイルを作って、Activity を閉じる</string>
+    <string name="read_file">ファイルを読み込む</string>
+    <string name="write_file">ファイルに追記して、File Activityを呼び出す</string>
+    <string name="delete_file">ファイルを消す</string>
+    <string name="file_view">(空)</string><string name="call_fileactivity">File Activityを呼び出す</string><string name="app_name_file">File Activity</string><string name="app_name_user">User Activity</string>
+
+</resources>

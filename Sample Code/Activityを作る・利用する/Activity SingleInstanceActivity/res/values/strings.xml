@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity を作る（非公開）</string>
+	<string name="user_description">ボタンをタップすると非公開Activityを呼び出す。</string>
+	<string name="use_activity">非公開Activityを利用する</string>
+	<string name="private_description">これは非公開Activityである。</string>
+	<string name="return_result">結果を返す</string>
+</resources>

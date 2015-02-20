@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">標準出力ログの抑制</string>
+	<string name="description">リリース版アプリでは標準出力、標準エラー出力で出力するログ情報がLogCatに出力されていないはずです。LogCatをご確認ください。</string>
+</resources>

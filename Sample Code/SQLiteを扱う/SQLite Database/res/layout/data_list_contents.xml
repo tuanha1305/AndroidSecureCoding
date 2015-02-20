@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/transparent"
+    >
+    
+    <!-- ユーザー番号 -->
+    <TextView 
+        android:id="@+id/dlc_IdNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_weight="20"
+    android:background="@color/transparent"
+    />
+    
+    <!-- ユーザー名 -->
+    <TextView 
+        android:id="@+id/dlc_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+    android:background="@color/transparent"
+    />
+
+    <!-- 情報欄 -->
+    <TextView 
+        android:id="@+id/dlc_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:background="@color/transparent"
+    />
+    
+</LinearLayout>

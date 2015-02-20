@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity を利用する（公開）</string>
+	<string name="description">ボタンをタップすると公開Activityを呼び出す。</string>
+	<string name="use_activity">公開Activityを利用する</string>
+</resources>

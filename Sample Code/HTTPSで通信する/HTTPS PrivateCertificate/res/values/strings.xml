@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HTTPS（プライベート証明書）</string>
+	<string name="description">プライベート証明書を使ったHTTPSサーバーから画像をダウンロードして表示する。</string>
+	<string name="urlbox_hint">画像のURLをhttps://で指定してください。</string>
+	<string name="urlbox_default">https://selfsigned.jssec.org/droid_knight.png</string>
+	<string name="private_certificate_https">Private Certificate Https</string>
+</resources>

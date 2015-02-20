@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crypt SymmetricPasswordBasedKey</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="memo_title">Input your memo.</string>
+    <string name="button_save_title">Save</string>
+    <string name="button_load_title">Load</string>
+    <string name="button_load_verify_title">Load &amp; Verify</string>
+    <string name="button_sign_save_title">Sign &amp; Save</string>
+    <string name="password_title">Input your password.</string>
+
+</resources>

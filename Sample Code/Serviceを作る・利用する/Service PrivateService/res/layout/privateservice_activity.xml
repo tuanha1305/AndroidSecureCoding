@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:text="Simple Service" />
+
+    <!-- Serviceを開始するボタン -->
+    <Button android:id="@+id/startservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="start service"
+        android:onClick="onStartServiceClick"
+         />
+
+    <!-- Serviceを終了するボタン -->
+    <Button android:id="@+id/stopservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="stop service" 
+        android:onClick="onStopServiceClick"
+         />
+
+    <!-- IntentServiceを開始するボタン -->
+    <Button android:id="@+id/startintentservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="start intent service"
+        android:onClick="onIntentServiceClick"
+         />
+
+</LinearLayout>

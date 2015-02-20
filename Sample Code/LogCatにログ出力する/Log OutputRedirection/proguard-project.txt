@@ -1,0 +1,13 @@
+# クラス名、メソッド名等の変更を防ぐ
+-dontobfuscate
+
+# リリースビルド時にLog.d()/v()の呼び出しを自動的に削除する
+-assumenosideeffects class android.util.Log {
+    public static int d(...);
+    public static int v(...);
+}
+
+# リリースビルド時にresetStreams()を自動的に削除する
+-assumenosideeffects class org.jssec.android.log.outputredirection.OutputRedirectApplication {
+    private void resetStreams(...);
+}

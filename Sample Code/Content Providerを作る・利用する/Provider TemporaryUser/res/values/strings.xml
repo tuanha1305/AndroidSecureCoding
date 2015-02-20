@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Providerを利用する（一時公開）</string>
+    <string name="description">一時公開 Content Provider をこの Activity で操作。</string>
+    <string name="query">Query</string>
+    <string name="grant_request">Grant要求する</string>
+    <string name="logview">以下にログ表示。\n</string>
+</resources>

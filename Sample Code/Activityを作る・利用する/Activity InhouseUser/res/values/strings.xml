@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activityを利用する（自社限定）</string>
+    <string name="description">ボタンをタップすると自社限定Activityを呼び出す。</string>
+	<string name="use_activity">自社限定Activityを利用する</string>
+</resources>

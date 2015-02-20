@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LogCatにログ出力する</string>
+	<string name="description">デバッグ版アプリとリリース版アプリでLogCatに出力されるログに違いがあります。LogCatをご確認ください。</string>
+</resources>

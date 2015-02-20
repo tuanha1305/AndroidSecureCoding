@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">かんたんログイン</string>
+    <string name="description">かんたんログイン機構によりユーザー毎のテキストデータを送受信する。</string>
+    <string name="text_title">メモ</string>
+    <string name="text_hint">メモを入力してください</string>
+    <string name="send_text">メモをサーバーに送信する</string>
+    <string name="del_token">メモを削除する</string>
+    <string name="alert_title">お読みください</string>
+    <string name="alert_desc">このアプリはあなたが入力したメモをサーバーに送信します。このメモを削除せずに端末を譲渡・売却・破棄すると、なりすまし被害に遭遇する危険性があります。端末を譲渡・売却・破棄する際に必ずメモを削除してください。以上ご理解の上、アプリを開始してください。</string>
+    <string name="alert_no_display">次回以降、この警告を表示しない</string>
+    <string name="alert_ok">アプリ開始</string>
+    <string name="alert_cancel">アプリ終了</string>
+
+</resources>

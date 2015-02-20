@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Broadcast を送信する（公開）</string>
+    <string name="description">公開 Broadcast Receiver に対して以下の操作ができる。</string>
+    <string name="send_normal">Normal Broadcast を送信する</string>
+    <string name="send_ordered">Ordered Broadcast を送信する</string>
+    <string name="send_sticky">Sticky Broadcast を送信する</string>
+    <string name="send_stickyordered">Sticky Ordered Broadcast を送信する</string>
+    <string name="remove_sticky">Sticky Broadcast を remove する</string>
+    <string name="logview">以下にBroadcastの結果情報が追加される。\n</string>
+</resources>

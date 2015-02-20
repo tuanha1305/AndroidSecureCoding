@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- アプリ名 -->
+<string name="app_name">SQLiteを使う</string>
+    
+    <!-- UI用文字列 -->
+    <!-- MainActivity -->
+    <string name="Title_MainActivity">アイテムをタップまたは長押しする。</string>
+    
+    <string name="EDIT_IDNO_TITLE">番　号</string>
+    <string name="EDIT_NAME_TITLE">名　前</string>
+    <string name="EDIT_INFO_TITLE">情　報</string>
+    
+    <!-- InsertActivity -->
+    <string name="ACTIVITY_TITLE_NEW">新規登録</string>
+
+    <!-- UpdateActivity -->
+    <string name="ACTIVITY_TITLE_EDIT">登録情報変更</string>
+    
+    <!-- DeleteActivity -->
+    <string name="ACTIVITY_TITLE_DELETE">登録情報削除</string>
+    
+    
+    <!-- SearchActivity -->
+    <string name="ACTIVITY_TITLE_SEARCH">登録情報検索</string>
+    
+    <!-- メニュー関連 -->
+    <string name="SEARCH_MENUITEM">検索</string>
+    <string name="INSERT_MENUITEM">追加</string>
+    <string name="EDIT_MENUITEM">編集</string>
+    <string name="DELETE_MENUITEM">削除</string>    
+    
+    <!-- メッセージ文字列 -->
+    <string name="DATABASE_CREATE_ERROR_MESSAGE">Database Create Error.</string>
+    <string name="DATABASE_OPEN_ERROR_MESSAGE">Database Open Error.</string>
+    <string name="DELETE_CONFIRMATION_MESSAGE">データを削除します。\nよろしいですか？</string>
+    <string name="DATABASE_CLOSE_ERROR_MESSAGE">Database close Error.</string>
+    <string name="DATABASE_NOTOPEN_MESSAGE">Database is not Error.</string>
+    <string name="SEARCHING_MESSAGE">データ取得中．．．</string>
+    <string name="SEARCHING_ERROR_MESSAGE">データ取得エラー</string>
+    <string name="UPDATING_MESSAGE">DB更新中．．．</string>
+    <string name="UPDATING_ERROR_MESSAGE">DB更新エラー</string>
+    <string name="DB_ERROR_MESSAGE">DBがOpenされていない</string>
+    
+    <!-- バリデーションメッセージ -->
+    <string name="IDNO_EMPTY_MESSAGE">IdNo is empty.</string>
+    <string name="IDNO_NOT_NUMERIC_MESSAGE">IdNo is not numeric.</string>
+    <string name="IDNO_IS_ZERO_MESSAGE">IdNo is zero.</string>
+    <string name="LENGTH_IS_OVER_LIMIT_MESSAGE">Length is over limit.</string>
+    <string name="REGULAR_EXPRESSION_ERROR_MESSAGE">regular expression error.</string>
+    
+</resources>

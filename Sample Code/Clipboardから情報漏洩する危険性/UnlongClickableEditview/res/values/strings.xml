@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">EditViewの長押しを禁止する</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_unlong_clickable">UnlongClickableActivity</string>
+    <string name="unlongclickable_description">下に表示されているEditTextは、android:longClickable属性をfalseに設定してある。長押し(Long Click)が無効になっているので、コピー・カットを行うことはできない。</string>
+    <string name="unlongclickable_hint">こちらに文字列を入力します。</string>
+</resources>

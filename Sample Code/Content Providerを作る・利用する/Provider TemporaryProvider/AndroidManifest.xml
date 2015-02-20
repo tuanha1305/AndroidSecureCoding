@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.jssec.android.provider.temporaryprovider"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- ★ポイント1★ Android 2.2（API Level 8）以前では一時許可Content Providerを実装しない -->
+    <uses-sdk android:minSdkVersion="9" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name=".TemporaryActiveGrantActivity"
+            android:label="@string/app_name"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 一時許可Content Provider -->
+        <!-- ★ポイント2★ exported="false"により、一時許可するPath以外を非公開設定する -->
+        <provider
+            android:name=".TemporaryProvider"
+            android:authorities="org.jssec.android.provider.temporaryprovider"
+            android:exported="false" >
+
+            <!-- ★ポイント3★ grant-uri-permissionにより、一時許可するPathを指定する -->
+            <grant-uri-permission android:path="/addresses" />
+
+        </provider>
+
+        <activity
+            android:name=".TemporaryPassiveGrantActivity"
+            android:label="@string/app_name"
+            android:exported="true" />
+    </application>
+</manifest>

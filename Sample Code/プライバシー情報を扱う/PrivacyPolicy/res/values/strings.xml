@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Privacy Policy Test Application</string>
+    <string name="action_settings">設定</string>
+    <string name="action_show_pp">プライバシーポリシー表示</string>
+    <string name="action_del_id">IDを削除</string>
+    <string name="action_donot_send_id">ID送信停止</string>
+    <string name="send_to_server">情報をサーバーへ送信する</string>
+    <string name="sendLocation">位置情報の送信</string>
+    <string name="cofirmSendLocation">あなたの位置情報をサーバーに送信しますがよろしいですか？</string>
+    <string name="stopSendUserData">利用者情報の送信を停止します</string>
+    <string name="privacyPolicy">プライバシーポリシーの確認</string>
+    <string name="agreePrivacyPolicy">本アプリケーションを利用されるには、下記リンクのプライバシーポリシーに同意していただく必要があります。本プライバシーポリシーの内容を確認のうえ、同意される場合は「はい」を押してお進みください。\nなお、「はい」と表示されたボタンを押した場合は、本プライバシーポリシーの内容を確認のうえ同意したものとみなします。</string>
+    <string name="link_pp"><u>プライバシーポリシー表示</u></string>
+    <string name="buttonOK">はい</string>
+    <string name="buttonNG">いいえ</string>
+    <string name="nickname_title">ニックネーム：</string>
+    <string name="nickname_hint">ニックネームを入力</string>
+    <string name="your_location_title">現在の位置 : </string>
+    
+</resources>

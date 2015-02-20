@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activityを作る（自社限定）</string>
+    <string name="description">これは自社限定Activityである。</string>
+    <string name="return_result">結果を返す</string>
+</resources>

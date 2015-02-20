@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Clipboardの情報漏洩</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">UncopyableActivity</string>
+    <string name="uncopyable_description">次の2つのEditTextのうち、「コピー・カット不可」と表示されている側のEditTextは、文字列選択時のメニューに「コピー」や「カット(切り取り)」が表示されません。</string>
+    <string name="copyable_hint">コピー・カット可</string>
+    <string name="uncopyable_hint">コピー・カット不可</string>
+
+</resources>

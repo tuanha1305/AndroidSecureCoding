@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activityを利用する（パートナー限定）</string>
+    <string name="description">ボタンをタップするとパートナー限定Activityを呼び出す。</string>
+    <string name="use_activity">パートナー限定Activityを利用する</string>
+</resources>

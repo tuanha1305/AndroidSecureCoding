@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.jssec.android.accountmanager.authenticator"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- Authenticatorを実装するのに必要なPermission -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!-- AuthenticatorのIBinderをAccountManagerに提供するサービス -->
+        <!-- ★ポイント1★ Authenticatorを提供するServiceは非公開Serviceとする -->
+        <service
+            android:name=".AuthenticationService"
+            android:exported="false" >
+        	<!-- intent-filterとmeta-dataはお決まりのパターン -->
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!-- アカウントを追加するときなどに表示されるログイン画面用のActivity -->
+        <!-- ★ポイント2★ ログイン画面ActivityはAuthenticatorアプリで実装する -->
+        <!-- ★ポイント3★ ログイン画面Activityは公開Activityとする -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/login_activity_title"
+            android:theme="@android:style/Theme.Dialog"
+            tools:ignore="ExportedActivity" />
+        
+</application>
+
+</manifest>

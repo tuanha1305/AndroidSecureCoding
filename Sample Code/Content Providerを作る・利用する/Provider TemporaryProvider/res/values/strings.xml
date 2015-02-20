@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Content Providerを作る（一時許可）</string>
+	<string name="active_description">ボタンを押すとUserアプリ「Content Providerを利用する（一時許可）」にIntentを送り、一時許可したURIにアクセスさせる。</string>
+	<string name="active_send">FLAG_GRANT_READ_URI_PERMISSION付きのIntentをUserアプリに投げる</string>
+	<string name="passive_description">Userアプリ「Content Providerを利用する（一時許可）」からGrant要求を受け付けた。Grantする場合は「Grant」ボタンを押す。</string>
+	<string name="passive_grant">Grant</string>
+	<string name="passive_close">Close</string>
+</resources>

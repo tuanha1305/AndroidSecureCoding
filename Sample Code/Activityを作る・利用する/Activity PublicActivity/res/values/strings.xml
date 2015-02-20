@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity を作る（公開）</string>
+	<string name="description">これは公開Activityである。</string>
+	<string name="return_result">結果を返す</string>
+</resources>
